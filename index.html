@@ -41,14 +41,14 @@
 <div class="video-container">
   <button id="prevVideoBtn" class="prev-btn"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
     <video id="videoPlayer" controls autoplay>
-      <source src="vid.mp4" type="video/mp4" >
+      <source src="vid1.mp4" type="video/mp4" >
     </video><br>
     <button id="nextVideoBtn" class="next-btn"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
   </div>
 
   <script>
     $(document).ready(function() {
-        var videos = ["vid.mp4", "vid1.mp4"]; // List your videos here
+        var videos = ["vid1.mp4", "vid.mp4"]; // List your videos here
         var currentVideo = 0;
 
         $("#nextVideoBtn").click(function() {
